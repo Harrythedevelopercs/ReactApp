@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.Main-Header{
+     
+    padding: 0 0 0 0;
+    z-index: 99;
+    width: 100%;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #1a1a1a;
+    top: 0;
+}
+.top-bar{
+    padding: 10px 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #cbd6e2;
+    z-index: 99;
+}
+marquee {
+    color: white;
+}
+
+
+ul.Topbar-Menu li{
+    
+    display: inline-block;
+    padding: 0 12px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+   
+}
+ul.Topbar-Menu li a{
+    text-decoration: none;
+   color: white;
+}
+.NavBar-Header{
+    background-color: #1a1a1a;
+   
+    width: 100%;  
+    padding: 10px 0;
+}
+.imglogo{
+    width: 88%;
+}
+.NavBar-ul > li{
+    display: inline;
+    padding: 0px 20px;
+    list-style: none;
+}
+.NavBar-ul > li > a{
+   color:white;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 600;
+}
+.NavBar-Wrap{
+    float: right;
+    margin-right:20px;
+    margin-top: 20px;
+}
+a.StartChatButton {
+    border-radius: 10px;
+    padding: 14px 20px;
+    background-color: #c51230;
+    color: white;
+}
+.HomePage-Banner {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: none;
+}
+.HomePage-Banner-Content > h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 65%;
+    letter-spacing: -1px
+}
+.HomePage-Banner-Content > p{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 40px;
+    width: 60%;
+}
+.Homapage-Carousel {
+    padding: 30px 0px;
+}
