@@ -1,6 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:  'Bai Jamjuree', sans-serif;
+    
+}
+p {
+    
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 0 0px;
+
     
 }
 .Main-Header{
@@ -74,7 +83,7 @@ a.StartChatButton {
     color: white;
 }
 .HomePage-Banner {
-    height: 90vh;
+    height: 100vh ;
     background-size: cover;
     background-repeat: none;
 }
@@ -97,4 +106,95 @@ a.StartChatButton {
 }
 .Homapage-Carousel {
     padding: 30px 0px;
+}
+
+.new-seciont-home{
+     display: inline-block;
+    padding: 30px 0;
+    background:  #fff;
+   
+    width: 100%;
+}
+.Home-carousel-con{
+    width: 100% !important;
+    max-width: 60% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.heading-content-client > h3{
+    color: #1a1a1a;
+    font-size: 16px;
+    padding-bottom: 0;
+    padding: 20px 0;
+}
+.client-logo{
+    width:130px;
+}
+.client-logo:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.client-div:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.HomeDetailSection{
+    background:#1a1a1a;
+    padding:90px 0px;
+}
+.HomeDetailSectionHeading{
+        line-height: 1;
+    font-size:  47px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    color: #c51230;
+}
+.HomeDetailSecCol{
+    text-align: center;
+}
+.HomeDetailSectionContainer{
+    max-width: 50%  !important;
+}
+.COl-1 > p {
+        
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 0 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 17px;
+}
+button.slick-arrow.slick-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #c51230;
+    font-size: 50px;
+}
+button.slick-arrow.slick-prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: #c51230;
+    font-size: 50px;
+}
+#root > div > section.new-seciont-home > div > div > div:nth-child(2) > div > button.slick-arrow.slick-prev {
+    DISPLAY: NONE !important;
+}
+#root > div > section.new-seciont-home > div > div > div:nth-child(2) > div > button.slick-arrow.slick-next {
+    DISPLAY: NONE !important;
+}
+.h4c{
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.4;
+    padding-bottom: 0;
+    letter-spacing: 0.5px;
+}
+.slick-slide img {
+   
+    margin: 0 auto !important;
+}
+.coro-slider-container{
+    margin-top: 30px;
 }
